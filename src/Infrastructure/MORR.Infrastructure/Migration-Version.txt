@@ -1,0 +1,22 @@
+﻿﻿Enable-Migrations -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+
+Add-Migration MORR00001 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00002 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00003 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00004 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00005 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00006 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00007 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00008 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Add-Migration MORR00009 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+
+Update-Database -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+
+Script-Migration -From MORR00001 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00002 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00003 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00004 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00005 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00006 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00007 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
+Script-Migration -From MORR00008 -Project MORR.Infrastructure -StartUp MORR.API -Verbose
